@@ -1,12 +1,9 @@
-package helper;
+package com.comparator;
 
-import model.User;
+import com.model.User;
 
 import java.util.Comparator;
 
-/**
- * Created by Mariia_Kogut on 11/26/2015.
- */
 public class UserComparator implements Comparator<User>{
 
     @Override

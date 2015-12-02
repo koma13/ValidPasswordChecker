@@ -1,12 +1,9 @@
-package model;
+package com.model;
 
-import helper.ValidatePass;
+import com.annotation.ValidatePass;
 
 import java.io.Serializable;
 
-/**
- * Created by Mariia_Kogut on 11/25/2015.
- */
 public class User implements Serializable {
 
     private static final long serialVersionUID = 7863262235394607247L;
