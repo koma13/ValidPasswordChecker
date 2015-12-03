@@ -1,19 +1,19 @@
 package com.services;
 
+import com.constants.Constants;
 import com.model.User;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class FileReader {
 
-    public static final String USERS_TXT = "users.txt";
-
     public static List<User> readFromFile() throws IOException {
         List<User> users = new ArrayList<>();
-        File myFile = new File(USERS_TXT);
+        File myFile = new File(Constants.USERS_TXT);
         Scanner inputFile = new Scanner(myFile);
 
         while (inputFile.hasNext()) {
